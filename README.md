@@ -105,6 +105,42 @@ O fluxo conversacional segue as seguintes etapas:
 - 📋 **validate-docbr==1.10.0**
 - 🛠️ **python-dotenv==1.0.1**
 
+## 🚀 Como começar
+## Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/LeviLucena/fgts-chatbot.git
+cd fgts-chatbot
+```
+
+2. Crie e ative um ambiente virtual (recomendado):
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/Mac
+source venv/bin/activate
+```
+
+3. Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+4. Configure sua API Key (se necessário)<br>
+No arquivo .env na raiz do projeto, inclua sua chave da API:
+```bash
+SECRET_KEY=sua_chave_secreta_aqui
+```
+
+5. Rode a aplicação
+Para rodar a aplicação localmente:
+```bash
+python main.py
+```
+
 ## 🤝 Contribuições
 Sinta-se à vontade para contribuir, sugerir melhorias ou relatar problemas para ajudar a desenvolver este projeto.
 
